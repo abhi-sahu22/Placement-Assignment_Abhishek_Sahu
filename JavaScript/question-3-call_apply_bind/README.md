@@ -4,8 +4,12 @@ const person = {
            	firstName: 'Abhishek',
            	lastName: 'Sahu'
    	};
+
+
 function greet(greeting) {
+
   console.log(`${greeting}, ${this.firstName} ${this.lastName}`);
+  
 }
 
 // If using .call() method:
