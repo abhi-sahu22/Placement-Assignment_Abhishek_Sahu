@@ -1,0 +1,47 @@
+.counter {
+    text-align: center;
+    border: 2px solid orangered;
+    max-width: 40%;
+    margin: 3rem auto;
+    border-radius: 1rem;
+    background-color: rgb(249, 214, 125);
+  }
+  
+  .count {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .buttons button {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 0 10px;
+    background-color: cornflowerblue;
+    color: bisque;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+  }
+
+  .buttons button:hover {
+    cursor: pointer;
+    transform: scale(0.95);
+    transition: 0.1s;
+  }
+  
+  .reset {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    background-color: firebrick;
+    color: bisque;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+  }
+  
+  .reset:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.1s;
+  }
