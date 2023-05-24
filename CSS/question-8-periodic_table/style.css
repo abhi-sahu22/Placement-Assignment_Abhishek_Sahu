@@ -1,0 +1,134 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#periodic_table {
+    width: 100%;
+    min-width: 600px;
+}
+
+#periodic_table > div {
+    margin-bottom: 2.5%;
+}
+
+#periodic_table > div > div {
+	width: 3.5%;
+	display: inline-block;
+
+    margin: 2px;
+
+}
+
+.gr > div {
+    border: 2px solid black;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    background: red;
+    margin-top: 10px;
+    padding: 0;
+}
+
+
+#lower-table {
+    margin-left: 155px;
+}
+
+#lower-table > div > div {
+    background-color: #9BFF99;
+    border: 2px solid black;
+    text-align: center;
+    margin-top: 10px;
+    padding: 0;
+}
+
+
+
+.blue div{
+    background-color: #99CCFF;
+}
+
+.yellow div {
+    background-color: #FDFF8C;
+}
+
+.pink div{
+    background-color: #FF9999;
+}
+
+.pink > div:first-of-type {
+    border: none;
+    background-color: transparent;
+}
+
+.pink-last {
+    background-color: #FF9999;
+}
+
+
+.next > div {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: none;
+    margin: 0.7rem;
+}
+
+.next {
+    position: relative;
+
+}
+
+/* group_number */
+.one {
+    border: none;
+}
+.two {
+    position: relative;
+    bottom: 50px;    
+}
+
+.blue > div:first-of-type{
+    position: relative;
+    bottom: 150px;
+    border: none;
+    background-color: transparent;
+}
+
+.yellow > div:first-of-type{
+    position: relative;
+    bottom: 50px;
+    border: none;
+    background-color: transparent;
+}
+
+.last > div:first-of-type {
+    position: relative;
+    bottom: 0px;
+}
+
+.group{
+    height: 18px;
+}
+
+.period {
+    height: 18px;
+}
+
+#group_name_symbol{
+    height: 18px;
+    position: relative;
+    top: 30px;
+}
+
+#period_name_symbol{
+    height: 18px;
+    position: relative;
+    top: 20px;
+}
+
