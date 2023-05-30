@@ -25,4 +25,5 @@ greet.apply(person, ['Hello']);
 // If using .bind() method:
 
 const greetPerson = greet.bind(person);
+
 greetPerson('Hello');
