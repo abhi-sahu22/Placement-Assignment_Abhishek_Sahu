@@ -9,12 +9,6 @@ html {
     font-size: 100%;
 }
 
-/* * {
-    background: #000 !important;
-    color: #0f0 !important;
-    outline: solid #f00 1px !important;
-  } */
-
 
 body {
     max-width: 1440px;
@@ -26,7 +20,6 @@ body {
 
 .container {
     min-height: 110vh;
-    /* Set a minimum height of 100 viewport height units */
     display: flex;
     flex-direction: column;
 }
@@ -259,8 +252,6 @@ body {
     }
 
 }
-
-
 
 /* First Diagram */
 
@@ -779,11 +770,6 @@ body {
     padding-top: 2rem;
 }
 
-/* Community Program */
-
-/* .cp-name {
-    padding-top: 2rem;
-} */
 
 /* One Neuron */
 
@@ -922,10 +908,6 @@ body {
     width: 100%;
 }
 
-/* .productImg {
-    width: 100%;
-} */
-
 .productSmall-heading {
     font-size: 24px;
     color: #233c7b;
@@ -963,7 +945,6 @@ body {
     .product-paragraph {
         font-size: 14px;
     }
-
 }
 
 /* Partnered Institutions */
