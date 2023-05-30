@@ -12,14 +12,17 @@ function greet(greeting) {
   
 }
 
+
 // If using .call() method:
 
 greet.call(person, 'Hello');
 
 
+
 // If using .apply() method:
 
 greet.apply(person, ['Hello']);
+
 
 
 // If using .bind() method:
