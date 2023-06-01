@@ -12,9 +12,11 @@ function greet(greeting) {
   
 }
 
+
 // If using .call() method:
 
 greet.call(person, 'Hello');
+
 
 
 // If using .apply() method:
@@ -22,7 +24,9 @@ greet.call(person, 'Hello');
 greet.apply(person, ['Hello']);
 
 
+
 // If using .bind() method:
 
 const greetPerson = greet.bind(person);
+
 greetPerson('Hello');
