@@ -1,9 +1,7 @@
-## This react project is created through vite
+## This react project is created through vite.
 
-## It contains node_modules
+## Need to enter npm install as there is no node_modules pushed to github.
 
-## So, the file size will be little big (total size: around 35 MB)
+## Then hit npm run dev.
 
-## But, this will make the process of opening the project in browser easy
 
-## As there will be NO requirement for npm install.
